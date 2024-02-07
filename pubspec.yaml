@@ -48,9 +48,11 @@ dev_dependencies:
   syncfusion_flutter_pdfviewer: ^24.2.4
   flutter_downloader: ^1.11.6
   flutter_file_downloader: ^1.2.1
-  flutter_html_to_pdf: ^0.7.0
   pdf: ^3.10.7
   flutter_html: ^3.0.0-beta.2
+  printing: null
+  flutter_to_pdf: ^0.1.1
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -86,17 +88,23 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: fonts/Lora-Regular.ttf
+          weight: 400
+        - asset: fonts/Lora-Bold.ttf
+          weight: 700
+        - asset: fonts/Lora-Medium.ttf
+          weight: 500
+
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/Ubuntu-Regular.ttf
+          weight: 400
+        - asset: fonts/Ubuntu-Bold.ttf
+          weight: 700
+        - asset: fonts/Ubuntu-Medium.ttf
+          weight: 500
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
